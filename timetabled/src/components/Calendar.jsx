@@ -24,7 +24,7 @@ const Calendar = () => {
             {/* Each row in the timetable will represent a 1 hour block for the week */}
               <tr>
                 <td className="time">8 am</td>
-                <Event />
+                <Event event='Fancy Dinner 🎩' color='green'/>
                 <td></td>
                 <td></td>
                 <td></td>

@@ -19,3 +19,10 @@ td {
 .time {
   height: 40px;
 }
+
+.Event h5{
+  align-content: center;
+}
+.green{
+  background-color: green;
+}
