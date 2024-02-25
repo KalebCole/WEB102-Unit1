@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../App.css";
+import Event from "./Event";
 
 const Calendar = () => {
   const [count, setCount] = useState(0);
@@ -23,7 +24,7 @@ const Calendar = () => {
             {/* Each row in the timetable will represent a 1 hour block for the week */}
               <tr>
                 <td className="time">8 am</td>
-                <td></td>
+                <Event />
                 <td></td>
                 <td></td>
                 <td></td>
