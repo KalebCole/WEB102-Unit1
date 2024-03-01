@@ -19,12 +19,15 @@ td {
 .time {
   height: 40px;
 }
+.Event{
+  width:auto;
+}
 
 .Event h5{
   align-content: center;
 }
 .green{
-  background-color: green;
+  background-color: lightgreen;
 }
 
 .pink{
@@ -32,9 +35,9 @@ td {
 }
 
 .blue{
-  background-color: blue;
+  background-color: lightblue;
 }
 
 .yellow{
-  background-color: yellow;
+  background-color: lightyellow;
 }
