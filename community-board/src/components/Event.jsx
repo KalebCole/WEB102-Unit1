@@ -1,20 +1,23 @@
-import { useState } from 'react'
-import '../App.jsx'
+import { useState } from "react";
+import "../App.jsx";
 
-function Event({image, title, time, location}) {
-  const [count, setCount] = useState(0)
+function Event({ image, title, time, location }) {
+  const [count, setCount] = useState(0);
 
-return (
+  return (
     <>
-        <div className="Event">
+      <div className="Event">
         <img src={image} alt="" />
+
         <h4>{title}</h4>
-        <h5>{time}</h5>
-        <h5>{location}</h5>
+        <h5>Time: {time}</h5>
+        <h5>
+          <span>Location:</span> {location}
+        </h5>
         <button>I'm interested</button>
-        </div>
+      </div>
     </>
-)
+  );
 }
 
-export default Event
+export default Event;

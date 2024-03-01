@@ -1,0 +1,62 @@
+[
+    {
+        "image": "acm-chapter.png",
+        "title": "ACM Club Meeting",
+        "time": "January 30th: 1:00 PM - 1:50 PM",
+        "location": "Benedum Building Room 209A"
+    },
+    {
+        "image": "hackatdavidson.png",
+        "title": "Hack@Davidson",
+        "time": "February 2nd-4th: Leaving at 4:00 PM",
+        "location": "Benedum Building Room 209A"
+    },
+    {
+        "image": "acm-chapter.png",
+        "title": "ACM Club Meeting",
+        "time": "February 13th: 1:00 PM - 1:50 PM",
+        "location": "Benedum Building Room 209A"
+    },
+    {
+        "image": "icpc.png",
+        "title": "International Collegiate Programming Contest (ICPC)",
+        "time": "Feb 23rd-24th: Leaving at 5:00 PM",
+        "location": "Virginia Tech, Blacksburg, VA 24061"
+    },
+    {
+        "image": "acm-chapter.png",
+        "title": "ACM Club Meeting",
+        "time": "February 27th: 1:00 PM - 1:50 PM",
+        "location": "Benedum Building Room 209A"
+    },
+    {
+        "image": "acm-chapter.png",
+        "title": "ACM Club Meeting",
+        "time": "March 5th: 1:00 PM - 1:50 PM",
+        "location": "Benedum Building Room 209A"
+    },
+    {
+        "image": "acm-chapter.png",
+        "title": "ACM Club Meeting",
+        "time": "March 19th: 1:00 PM - 1:50 PM",
+        "location": "Benedum Building Room 209A"
+    },
+    {
+        "image": "acm-chapter.png",
+        "title": "ACM Club Meeting",
+        "time": "March 26th: 1:00 PM - 1:50 PM",
+        "location": "Benedum Building Room 209A"
+    },
+    {
+        "image": "acm-chapter.png",
+        "title": "TechLAN",
+        "time": "April 14-16th",
+        "location": "Neville Street Auditorium"
+    },
+    {
+        "image": "acm-chapter.png",
+        "title": "Final Meeting Social",
+        "time": "April 24th: 1:00 PM - 1:50 PM",
+        "location": "Benedum Building Room 209A"
+    }
+]

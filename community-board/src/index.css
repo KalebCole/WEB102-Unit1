@@ -1,11 +1,10 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
-
+  font-weight: normal;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: black;
+  background-color:#002855;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,7 +42,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #002855;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -56,20 +55,46 @@ button:focus-visible {
 }
 
 
+.heading{
+  background-color: #002855;
+  color: #F7F7F7;
+}
+.heading img{
+  width: 20%;
+  margin-bottom: 0;
+}
+
+.heading h1{
+  margin: 0 0 5% 0;
+  font-size: xx-large;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
 .Events{
   display: grid;
   grid-template-columns: repeat(4, 0.5fr);
   justify-items: center;
 }
 
-.Event{
-  margin: auto;
-}
 
+.Event {
+  margin: 0 5% 5% 5%;
+  width: 75%;
+  background-color: #EAAA00;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  padding: 1em;
+  overflow: hidden;
+}
 .Event img{
-  width: 50%;
+  width: 100%;
 }
 
+.Event h4{
+  color: #F7F7F7;
+  font-weight:bolder;
+
+}
 
 
 
