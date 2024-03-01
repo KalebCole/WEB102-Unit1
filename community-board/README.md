@@ -2,16 +2,16 @@
 
 Submitted by: **Kaleb Cole**
 
-This web app: **insert description**
+This web app: **WVU Tech ACM Student Chapter list of events for the Spring 2024 Semester**
 
-Time spent: **X** hours spent in total
+Time spent: **3** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [X] **There is a unique theme for events or resources relevant to a specific community**
+- [X] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 

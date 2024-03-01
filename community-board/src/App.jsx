@@ -22,6 +22,7 @@ function App() {
               title={event.title}
               time={event.time}
               location={event.location}
+              link={event.link}
             />
           ))}
         </div>

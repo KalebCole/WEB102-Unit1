@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "../App.jsx";
 
-function Event({ image, title, time, location }) {
+function Event({ image, title, time, location, link }) {
   const [count, setCount] = useState(0);
 
   return (
@@ -14,7 +14,7 @@ function Event({ image, title, time, location }) {
         <h5>
           <span>Location:</span> {location}
         </h5>
-        <button>I'm interested</button>
+        <button className="interested-button"><a href={link}>I'm interested</a></button>
       </div>
     </>
   );
