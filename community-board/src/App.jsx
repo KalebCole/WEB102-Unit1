@@ -9,7 +9,20 @@ function App() {
     <>
       <div className="App">
         <h1>WVU Tech Association for Computing Machinery (ACM) Events</h1>
-        <Event image="public/icpc.png" title="International Collegiate Programming Contest (ICPC)" time="Feb 26-27: Leaving at 5:00 PM" location="Virginia Tech: Blacksburg, VA 24061" />
+        <div className="Events">
+          <Event
+            image="public/icpc.png"
+            title="International Collegiate Programming Contest (ICPC)"
+            time="Feb 26-27: Leaving at 5:00 PM"
+            location="Virginia Tech: Blacksburg, VA 24061"
+          />
+          <Event
+            image="public/icpc.png"
+            title="International Collegiate Programming Contest (ICPC)"
+            time="Feb 26-27: Leaving at 5:00 PM"
+            location="Virginia Tech: Blacksburg, VA 24061"
+          />
+        </div>
       </div>
     </>
   );
