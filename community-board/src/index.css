@@ -57,8 +57,9 @@ button:focus-visible {
 
 
 .Events{
-  display:flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 0.5fr);
+  justify-items: center;
 }
 
 .Event{
